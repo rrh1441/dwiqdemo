@@ -1,0 +1,89 @@
+PANTONE:
+PANTONE:
+PANTONE:
+2028 С
+1655 С
+7604 С
+WEB:
+WEB:
+WEB:
+WEB:
+WEB:
+ef4023
+f15831
+f26b42
+e1d3cd
+f7ece2
+RGB:
+RGB:
+RGB:
+RGB:
+RGB:
+239 64 35
+241 88 49
+241 88 49
+225 211 205
+247 236 226
+CMYK:
+CMYK:
+CMYK:
+CMYK:
+CMYK:
+0 90 100 0
+0 81 90 0
+0 72 80 0
+0 8 8 12
+0 5 8 3
+HERO RED DAY BEIGE
+Warm Darkweb IQ Guideline
+HERO RED
+100%
+Cold
+WHITE
+100%
+60% 100%
+10%
+90%
+80%
+GRADIENT100% 100%
+90%
+80% 70% 100% NIGHT GRAY50%
+40%
+CMYK:
+CMYK:
+CMYK:
+CMYK:
+37 27 39 84
+33 24 35 76
+30 21 31 67
+26 19 27 59
+RGB:
+RGB:
+RGB:
+RGB:
+46 49 44
+64 66 61
+82 84 78
+98 100 96
+WEB:
+WEB:
+WEB:
+WEB:
+2e312c
+40423d
+52544e
+626460
+PANTONE:
+PANTONE:
+PANTONE:
+Black 3 C
+446 C
+418 C
+CMYK:
+4 3 4 8
+RGB:
+227 227 226
+WEB:
+e3e3e2
+
+Typeface: Helvetica / Neue Helvetica / Univers (or a neutral grotesque of that family).

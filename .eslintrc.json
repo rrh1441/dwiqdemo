@@ -1,0 +1,8 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "react/jsx-max-props-per-line": ["warn", { "maximum": { "single": 3, "multi": 1 } }],
+    "react/jsx-first-prop-new-line": ["warn", "multiline-multiprop"],
+    "@next/next/no-html-link-for-pages": "off"
+  }
+}
