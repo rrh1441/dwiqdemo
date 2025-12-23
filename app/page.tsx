@@ -70,10 +70,10 @@ export default function HomePage() {
         <div className="content-wide">
           <FadeIn>
             <p className="section-label mb-6">Confirmed Access Sale Intelligence</p>
-            <h1 className="font-serif text-display max-w-4xl text-textPrimary">
+            <h1 className="font-serif text-display md:text-display-lg max-w-4xl text-textPrimary">
               We warn you when hackers try to sell access to your company.
             </h1>
-            <p className="mt-6 text-body-lg text-textSecondary max-w-2xl">
+            <p className="mt-4 md:mt-6 text-base md:text-body-lg text-textSecondary max-w-2xl">
               No noise. No delay. Clear alerts when you face real risk.
             </p>
           </FadeIn>
@@ -102,16 +102,16 @@ export default function HomePage() {
         <div className="content-wide">
           <FadeIn>
             <p className="section-label mb-2">H1 2025 Results</p>
-            <h2 className="font-serif text-headline text-textPrimary">
+            <h2 className="font-serif text-headline md:text-headline-lg text-textPrimary">
               What we stopped this year.
             </h2>
           </FadeIn>
 
-          <FadeInStagger className="mt-10 grid gap-8 md:grid-cols-3">
+          <FadeInStagger className="mt-8 md:mt-10 grid gap-6 md:gap-8 md:grid-cols-3">
             {stats.map((stat) => (
               <FadeInStaggerItem key={stat.label}>
-                <div className="border-l-4 border-accent pl-6">
-                  <p className="text-4xl font-bold text-textPrimary">
+                <div className="border-l-4 border-accent pl-4 md:pl-6">
+                  <p className="text-3xl md:text-4xl font-bold text-textPrimary">
                     <Counter
                       value={stat.value}
                       prefix={stat.prefix || ""}
@@ -136,12 +136,12 @@ export default function HomePage() {
       <section id="exposure-check" className="section-spacing border-b border-border">
         <div className="content-wide">
           <FadeIn>
-            <div className="max-w-2xl mx-auto text-center mb-10">
+            <div className="max-w-2xl mx-auto text-center mb-8 md:mb-10">
               <p className="section-label mb-2">Free Assessment</p>
-              <h2 className="font-serif text-headline text-textPrimary">
+              <h2 className="font-serif text-headline md:text-headline-lg text-textPrimary">
                 Check your exposure.
               </h2>
-              <p className="mt-4 text-body-lg text-textSecondary">
+              <p className="mt-3 md:mt-4 text-base md:text-body-lg text-textSecondary">
                 Get a snapshot of your organization&apos;s risk profile. We&apos;ll check your domains and top vendors for known access sales.
               </p>
             </div>
@@ -158,12 +158,12 @@ export default function HomePage() {
         <div className="content-wide">
           <FadeIn>
             <p className="section-label mb-2">The Problem We Fix</p>
-            <h2 className="font-serif text-headline text-textPrimary max-w-2xl">
+            <h2 className="font-serif text-headline md:text-headline-lg text-textPrimary max-w-2xl">
               Real fixes for your biggest issues.
             </h2>
           </FadeIn>
 
-          <FadeInStagger className="mt-12 grid gap-8 md:grid-cols-3">
+          <FadeInStagger className="mt-8 md:mt-12 grid gap-6 md:gap-8 md:grid-cols-3">
             {painFix.map(({ label, problem, fix }) => (
               <FadeInStaggerItem key={label}>
                 <div className="h-full rounded-lg border border-border p-6">
@@ -196,21 +196,21 @@ export default function HomePage() {
         <div className="content-wide">
           <FadeIn>
             <p className="section-label mb-2">How It Works</p>
-            <h2 className="font-serif text-headline text-textPrimary max-w-3xl">
+            <h2 className="font-serif text-headline md:text-headline-lg text-textPrimary max-w-3xl">
               Four steps from darknet chatter to action.
             </h2>
-            <p className="mt-4 text-body-lg text-textSecondary max-w-2xl">
+            <p className="mt-3 md:mt-4 text-base md:text-body-lg text-textSecondary max-w-2xl">
               We verify each access sale by hand so the alert you receive already includes the fix.
             </p>
           </FadeIn>
 
-          <FadeInStagger className="mt-12 grid gap-6 md:grid-cols-2">
+          <FadeInStagger className="mt-8 md:mt-12 grid gap-4 md:gap-6 md:grid-cols-2">
             {steps.map((step) => (
               <FadeInStaggerItem key={step.num}>
-                <div className="flex gap-6 rounded-lg bg-background border border-border p-6">
-                  <span className="text-3xl font-bold text-accent/30">{step.num}</span>
+                <div className="flex gap-4 md:gap-6 rounded-lg bg-background border border-border p-4 md:p-6">
+                  <span className="text-2xl md:text-3xl font-bold text-accent/30">{step.num}</span>
                   <div>
-                    <h3 className="font-serif text-xl text-textPrimary">{step.title}</h3>
+                    <h3 className="font-serif text-lg md:text-xl text-textPrimary">{step.title}</h3>
                     <p className="mt-2 text-textSecondary">{step.copy}</p>
                   </div>
                 </div>
@@ -225,19 +225,19 @@ export default function HomePage() {
         <div className="content-wide">
           <FadeIn>
             <p className="section-label mb-2">Executive Outcomes</p>
-            <h2 className="font-serif text-headline text-textPrimary">
+            <h2 className="font-serif text-headline md:text-headline-lg text-textPrimary">
               Proof you can take upstairs.
             </h2>
           </FadeIn>
 
           <FadeIn delay={0.2}>
-            <blockquote className="pull-quote mt-10 max-w-3xl">
+            <blockquote className="pull-quote mt-6 md:mt-10 max-w-3xl">
               Over $500 million in losses prevented to date. Trusted by enterprises, insurers, and law enforcement.
             </blockquote>
           </FadeIn>
 
           <FadeIn delay={0.3}>
-            <div className="mt-12 grid gap-6 md:grid-cols-3">
+            <div className="mt-8 md:mt-12 grid gap-4 md:gap-6 md:grid-cols-3">
               <div className="space-y-2">
                 <p className="text-xs font-medium uppercase tracking-wide text-textMuted">
                   Time to alert
@@ -279,16 +279,16 @@ export default function HomePage() {
         <div className="content-wide">
           <FadeIn>
             <p className="section-label mb-2">For Operators</p>
-            <h2 className="font-serif text-headline text-textPrimary max-w-2xl">
+            <h2 className="font-serif text-headline md:text-headline-lg text-textPrimary max-w-2xl">
               Pull our data where you need it.
             </h2>
-            <p className="mt-4 text-body-lg text-textSecondary max-w-2xl">
+            <p className="mt-3 md:mt-4 text-base md:text-body-lg text-textSecondary max-w-2xl">
               Short summary for executives. Structured payloads for your SOC tools and insurers.
             </p>
           </FadeIn>
 
           <FadeIn delay={0.2}>
-            <div className="mt-12 grid gap-8 lg:grid-cols-2">
+            <div className="mt-8 md:mt-12 grid gap-6 md:gap-8 lg:grid-cols-2">
               <div className="space-y-6">
                 <div>
                   <p className="text-xs font-medium uppercase tracking-wide text-textMuted mb-2">
@@ -328,7 +328,7 @@ export default function HomePage() {
                 </div>
               </div>
 
-              <div className="rounded-lg bg-textPrimary p-6 text-sm">
+              <div className="rounded-lg bg-textPrimary p-4 md:p-6 text-sm overflow-hidden">
                 <p className="text-xs font-medium uppercase tracking-wide text-textMuted mb-4">
                   Sample payload
                 </p>
@@ -346,15 +346,15 @@ export default function HomePage() {
         <div className="content-wide">
           <FadeIn>
             <p className="section-label mb-2">About DarkwebIQ</p>
-            <h2 className="font-serif text-headline text-textPrimary max-w-2xl">
+            <h2 className="font-serif text-headline md:text-headline-lg text-textPrimary max-w-2xl">
               We stop break-ins before they become attacks.
             </h2>
-            <p className="mt-4 text-body-lg text-textSecondary max-w-2xl">
+            <p className="mt-3 md:mt-4 text-base md:text-body-lg text-textSecondary max-w-2xl">
               We find access sales, warn you fast, and shut them down.
             </p>
           </FadeIn>
 
-          <FadeInStagger className="mt-12 grid gap-6 md:grid-cols-3">
+          <FadeInStagger className="mt-8 md:mt-12 grid gap-4 md:gap-6 md:grid-cols-3">
             {[
               {
                 label: "Mission",
@@ -370,11 +370,11 @@ export default function HomePage() {
               },
             ].map((item) => (
               <FadeInStaggerItem key={item.label}>
-                <div className="border-l-4 border-accent pl-6">
+                <div className="border-l-4 border-accent pl-4 md:pl-6">
                   <p className="text-xs font-semibold uppercase tracking-wide text-accent mb-2">
                     {item.label}
                   </p>
-                  <p className="text-textSecondary">{item.copy}</p>
+                  <p className="text-sm md:text-base text-textSecondary">{item.copy}</p>
                 </div>
               </FadeInStaggerItem>
             ))}
@@ -388,7 +388,7 @@ export default function HomePage() {
           <FadeIn>
             <div className="cta-box max-w-2xl mx-auto">
               <p className="section-label mb-4">Start a Pilot</p>
-              <h2 className="font-serif text-title text-textPrimary">
+              <h2 className="font-serif text-title md:text-title-lg text-textPrimary">
                 Want a pilot for your domains?
               </h2>
               <p className="mt-3 text-textSecondary">

@@ -5,18 +5,18 @@ import Link from "next/link";
 export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-sm">
-      <div className="content-wide flex items-center justify-between py-4">
+      <div className="content-wide flex items-center justify-between py-3 sm:py-4">
         <Link
           href="/"
-          className="font-serif text-xl text-textPrimary no-underline hover:text-textPrimary"
+          className="font-serif text-lg sm:text-xl text-textPrimary no-underline hover:text-textPrimary"
         >
           DarkwebIQ
         </Link>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           <Link
             href="#exposure-check"
-            className="rounded-full bg-accent px-5 py-2 text-sm font-medium text-white no-underline transition-colors hover:bg-accent-soft"
+            className="hidden sm:inline-flex rounded-full bg-accent px-4 sm:px-5 py-2 text-sm font-medium text-white no-underline transition-colors hover:bg-accent-soft"
           >
             Get Your Snapshot
           </Link>
@@ -24,7 +24,7 @@ export function Header() {
             href="https://www.darkwebiq.com/book-a-call"
             target="_blank"
             rel="noreferrer"
-            className="rounded-full bg-accent px-5 py-2 text-sm font-medium text-white no-underline transition-colors hover:bg-accent-soft"
+            className="rounded-full bg-accent px-4 sm:px-5 py-2 text-sm font-medium text-white no-underline transition-colors hover:bg-accent-soft"
           >
             Book a Call
           </Link>

@@ -39,9 +39,12 @@ const config: Config = {
         mono: ["JetBrains Mono", "Fira Code", "monospace"],
       },
       fontSize: {
-        "display": ["3.5rem", { lineHeight: "1.1", letterSpacing: "-0.02em" }],
-        "headline": ["2.5rem", { lineHeight: "1.15", letterSpacing: "-0.01em" }],
-        "title": ["1.75rem", { lineHeight: "1.2" }],
+        "display": ["2.25rem", { lineHeight: "1.15", letterSpacing: "-0.02em" }],
+        "display-lg": ["3.5rem", { lineHeight: "1.1", letterSpacing: "-0.02em" }],
+        "headline": ["1.75rem", { lineHeight: "1.2", letterSpacing: "-0.01em" }],
+        "headline-lg": ["2.5rem", { lineHeight: "1.15", letterSpacing: "-0.01em" }],
+        "title": ["1.5rem", { lineHeight: "1.25" }],
+        "title-lg": ["1.75rem", { lineHeight: "1.2" }],
         "body-lg": ["1.125rem", { lineHeight: "1.7" }],
       },
       maxWidth: {
@@ -49,8 +52,9 @@ const config: Config = {
         "wide": "1100px",
       },
       spacing: {
-        "section": "6rem",
-        "section-sm": "4rem",
+        "section": "4rem",
+        "section-lg": "6rem",
+        "section-sm": "3rem",
       },
       boxShadow: {
         "subtle": "0 1px 3px rgba(0,0,0,0.04)",
