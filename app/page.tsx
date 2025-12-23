@@ -142,7 +142,7 @@ export default function HomePage() {
                 Check your exposure.
               </h2>
               <p className="mt-4 text-body-lg text-textSecondary">
-                Get a snapshot of your organization's risk profile. We'll check your domains and top vendors for known access sales.
+                Get a snapshot of your organization&apos;s risk profile. We&apos;ll check your domains and top vendors for known access sales.
               </p>
             </div>
           </FadeIn>

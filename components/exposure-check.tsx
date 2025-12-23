@@ -124,9 +124,20 @@ export function ExposureCheckForm() {
                     type="button"
                     onClick={() => removeVendor(vendor)}
                     className="text-accent hover:text-accent-soft"
+                    aria-label="Remove vendor"
                   >
-                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                    <svg
+                      className="w-4 h-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M6 18L18 6M6 6l12 12"
+                      />
                     </svg>
                   </button>
                 </span>
@@ -194,7 +205,7 @@ export function ExposureCheckForm() {
             Get Your Exposure Snapshot
           </button>
           <p className="mt-3 text-center text-xs text-textMuted">
-            We'll send your personalized risk report within 24 hours.
+            We&apos;ll send your personalized risk report within 24 hours.
           </p>
         </div>
       </div>
